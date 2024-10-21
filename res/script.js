@@ -33,9 +33,7 @@ function showCookies(){
                     </div>
                 </div>
                 <div class="img-container">
-                    <a href="/res/img/Cookies.jpg" data-lightbox="Cookies" data-title="Les fameux cookies d'Audrey !"><img src="/res/img/Cookies.jpg" alt="Oh ! On n'a pas encore pris de photo !" width=100%></a> 
-
-                    
+                    <a href="res/img/Cookies.jpg" data-lightbox="Cookies" data-title="Les fameux cookies d'Audrey !"><img src="res/img/Cookies.jpg" alt="Oh ! On n'a pas encore pris de photo !" width=100%></a>                
                 </div>
             </div>
             
