@@ -6,7 +6,7 @@ if (date > 320 && date < 621) {
 } else if (date > 620 && date < 921) {
     document.getElementById("style").setAttribute("href", "res/summer.css");
 } else if (date > 920 && date < 1221) {
-    document.getElementById("style").setAttribute("href", "res/winter.css");
+    document.getElementById("style").setAttribute("href", "res/fall.css");
 } else if (date > 1220 && date < 321) {
     document.getElementById("style").setAttribute("href", "res/winter.css");
 } else {
