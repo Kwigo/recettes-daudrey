@@ -9,6 +9,7 @@ var currDay = new Date().getDate();
 var date = currMonth.toString() + currDay.toString();
 
 if (window.mobileCheck()) {
+    console.log("mobile")
     if (date > 320 && date < 621) {
         document.getElementById("style").setAttribute("href", "res/styles/spring_m.css");
     } else if (date > 620 && date < 921) {
@@ -21,6 +22,7 @@ if (window.mobileCheck()) {
         document.getElementById("style").setAttribute("href", "res/styles/style_m.css");
     } 
 } else {
+    console.log("not mobile")
     if (date > 320 && date < 621) {
         document.getElementById("style").setAttribute("href", "res/styles/spring.css");
     } else if (date > 620 && date < 921) {
