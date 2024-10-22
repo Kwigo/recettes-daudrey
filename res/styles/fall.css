@@ -1,6 +1,15 @@
+/* vars */
+:root {
+  --dark-menu: rgb(76, 75, 22);
+  --light-menu: rgb(137, 129, 33);
+  --background: rgb(230, 199, 103);
+  --content: rgb(248, 122, 83);
+}
+
 /* Globals */
 * {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
   }
   
   /* link styling*/
@@ -12,22 +21,22 @@
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #56585c; 
+    background-color: var(--light-menu); 
     color: white; 
   }
   
   /* Show the dropdown menu on hover */
   .dropdown-menu:hover .dropdown-content {display: block;}
-  
-  .menu-link:hover {background-color: #56585c;}
+
+  .menu-link:hover {background-color: var(--light-menu);}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown-menu:hover .dropbtn{background-color: #56585c;}
-  .dropdown-menu:hover {background-color: #56585c;}
+  .dropdown-menu:hover .dropbtn{background-color: var(--light-menu);}
+  .dropdown-menu:hover {background-color: var(--light-menu);}
   
   /* Dropdown Button */
   .dropbtn {
-    background-color: #3b3f47;
+    background-color: var(--dark-menu);
     color: white;
     font-size: 18px;
     border: none;
@@ -45,7 +54,7 @@
     display:none;
     position: absolute;
     left: 0px;
-    background-color: #3b3f47;
+    background-color: var(--dark-menu);
     min-width: 174px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -66,16 +75,16 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(155, 142, 171);
+    background-color: var(--background);
   }
   
   .menu-container {
       display: flex;
-      background-color: #0e54e1;
+      background-color: var(--dark-menu);
     }
   
   .menu-container > div {
-    background-color: #3b3f47;
+    background-color: var(--dark-menu);
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -89,14 +98,14 @@
   
   .content-container {
     display: flex;
-    background-color: rgb(155, 142, 171);
+    background-color: var(--background);
     overflow: hidden; /*hack for rounded corners*/
   }
   
   #content {
     display: flex;
     flex-direction: column;
-    background-color: rgb(127, 82, 143);
+    background-color: var(--content);
     width: 90vw; /*90% of the viewport width*/
     margin: 5% 5%;
     text-align: justify;
@@ -108,7 +117,7 @@
   
   footer {
     display: flex;
-    background-color: rgb(155, 142, 171);
+    background-color: var(--background);
     margin-top: 10px;
     margin-bottom: 50px;
     justify-content: center;
