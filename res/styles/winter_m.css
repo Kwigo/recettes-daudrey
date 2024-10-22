@@ -1,15 +1,6 @@
-/* vars */
-:root {
-  --dark-menu: rgb(76, 75, 22);
-  --light-menu: rgb(137, 129, 33);
-  --background: rgb(230, 199, 103);
-  --content: rgb(248, 122, 83);
-}
-
 /* Globals */
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 550;
   }
   
   /* link styling*/
@@ -21,23 +12,22 @@
   
   /* Change color of dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: var(--light-menu); 
+    background-color: #56585c; 
     color: white; 
   }
   
   /* Show the dropdown menu on hover */
   .dropdown-menu:hover .dropdown-content {display: block;}
-
-  .menu-link:hover {background-color: var(--light-menu);}
-  .menu-item {padding-left: 3px;}
+  
+  .menu-link:hover {background-color: #56585c;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown-menu:hover .dropbtn{background-color: var(--light-menu);}
-  .dropdown-menu:hover {background-color: var(--light-menu);}
+  .dropdown-menu:hover .dropbtn{background-color: #56585c;}
+  .dropdown-menu:hover {background-color: #56585c;}
   
   /* Dropdown Button */
   .dropbtn {
-    background-color: var(--dark-menu);
+    background-color: #3b3f47;
     color: white;
     font-size: 18px;
     border: none;
@@ -55,7 +45,7 @@
     display:none;
     position: absolute;
     left: 0px;
-    background-color: var(--dark-menu);
+    background-color: #3b3f47;
     min-width: 174px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -76,16 +66,16 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: var(--background);
+    background-color: rgb(155, 142, 171);
   }
   
   .menu-container {
       display: flex;
-      background-color: var(--dark-menu);
+      background-color: #3b3f47;
     }
   
   .menu-container > div {
-    background-color: var(--dark-menu);
+    background-color: #3b3f47;
     margin: 0px;
     padding-left: 20px;
     padding-right: 20px;
@@ -99,14 +89,14 @@
   
   .content-container {
     display: flex;
-    background-color: var(--background);
+    background-color: rgb(155, 142, 171);
     overflow: hidden; /*hack for rounded corners*/
   }
   
   #content {
     display: flex;
     flex-direction: column;
-    background-color: var(--content);
+    background-color: rgb(127, 82, 143);
     width: 90vw; /*90% of the viewport width*/
     margin: 5% 5%;
     text-align: justify;
@@ -118,7 +108,7 @@
   
   footer {
     display: flex;
-    background-color: var(--background);
+    background-color: rgb(155, 142, 171);
     margin-top: 10px;
     margin-bottom: 50px;
     justify-content: center;
@@ -126,22 +116,12 @@
   
   .top-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   
   .ingredients {
     display: flex;
     flex-direction: column;
-  }
-  
-  .ingr-container {
-    width: 35vw;
-    padding-right: 5vw;
-    height: 80%;
-  }
-  
-  .img-container {
-    max-width: 35vw;
   }
   
   .img-container img {
@@ -151,6 +131,3 @@
   ul li {
     margin-bottom: 2px;
 }
-  
-  
-  

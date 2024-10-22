@@ -126,22 +126,12 @@
   
   .top-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   
   .ingredients {
     display: flex;
     flex-direction: column;
-  }
-  
-  .ingr-container {
-    width: 35vw;
-    padding-right: 5vw;
-    height: 80%;
-  }
-  
-  .img-container {
-    max-width: 35vw;
   }
   
   .img-container img {
