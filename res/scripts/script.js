@@ -15,22 +15,18 @@ function showCookies(){
 
             <div class="top-content">
                 <div class="ingredients">
-                    <div>
-                        <h2>Ingrédients</h2>
-                    </div>
-                    <div class="ingr-container">
-                        <ul>
-                            <li>225g de beurre</li>
-                            <li>220g de sucre cassonade</li>
-                            <li>150g de sucre blanc</li>
-                            <li>2 oeufs</li>
-                            <li>10ml d'extrait de vanille</li>
-                            <li>312g de farine</li>
-                            <li>5g de bicarbonate</li>
-                            <li>5g de sel</li>
-                            <li>Pépites de chocolat selon la gourmandise</li>
-                        </ul>
-                    </div>
+                    <h2>Ingrédients</h2>
+                    <ul class="ingr-container">
+                        <li>225g de beurre</li>
+                        <li>220g de sucre cassonade</li>
+                        <li>150g de sucre blanc</li>
+                        <li>2 oeufs</li>
+                        <li>10ml d'extrait de vanille</li>
+                        <li>312g de farine</li>
+                        <li>5g de bicarbonate</li>
+                        <li>5g de sel</li>
+                        <li>Pépites de chocolat selon la gourmandise</li>
+                    </ul>
                 </div>
                 <div class="img-container">
                     <a href="res/img/Cookies.jpg" data-lightbox="Cookies" data-title="Les fameux cookies d'Audrey !"><img src="res/img/Cookies.jpg" alt="Oh ! On n'a pas encore pris de photo !" width=100%></a>                
@@ -55,36 +51,32 @@ function showRotiPorc(){
     content.innerHTML = `<h1 class="title">Rôti de porc à la Audrey</h1>
             <div class="top-content">
                 <div class="ingredients">
-                    <div>
-                        <h2>Ingrédients</h2>
-                    </div>
-                    <div class="ingr-container">
-                        <h3>Le rôti</h3>
-                        <ul>
-                            <li>Un rôti de porc entre 700gr/1kg avec du gras dessus</li>
-                        </ul>
-                        <h3>La marinade</h3>
-                        <ul>
-                            <li>Moutarde à l'ancienne (1 c à soupe)</li>
-                            <li>Moutarde forte (2 c à soupe)</li>
-                            <li>Huile d'olive (1/2c à soupe)</li>
-                            <li>Sauce soja salée (2c à soupe env)</li>
-                            <li>Sirop d'érable (4c à soupe env)</li>
-                            <li>Thym</li>
-                            <li>Sauge</li>
-                            <li>Ciboulette</li>
-                        </ul>
-                        <h3>La sauce</h3>
-                        <ul>
-                            <li>Une échalote</li>
-                            <li>Vin rouge (env. 10cl)</li>
-                            <li>Beurre (pour un rendu brillant et épais)</li>
-                            <li>Sauce soja (1c à café environ) </li>
-                            <li>Moutarde à l'ancienne (1c à café)</li>
-                            <li>Moutarde forte (1c à café)</li>
-                            <li>Sirop d'érable (à mesurer selon niveau acidité/sel)</li>
-                        </ul>
-                    </div>
+                    <h2>Ingrédients</h2>
+                    <h3>Le rôti</h3>
+                    <ul class="ingr-container">
+                        <li>Un rôti de porc entre 700gr/1kg avec du gras dessus</li>
+                    </ul>
+                    <h3>La marinade</h3>
+                    <ul class="ingr-container">
+                        <li>Moutarde à l'ancienne (1 c à soupe)</li>
+                        <li>Moutarde forte (2 c à soupe)</li>
+                        <li>Huile d'olive (1/2c à soupe)</li>
+                        <li>Sauce soja salée (2c à soupe env)</li>
+                        <li>Sirop d'érable (4c à soupe env)</li>
+                        <li>Thym</li>
+                        <li>Sauge</li>
+                        <li>Ciboulette</li>
+                    </ul>
+                    <h3>La sauce</h3>
+                    <ul class="ingr-container">
+                        <li>Une échalote</li>
+                        <li>Vin rouge (env. 10cl)</li>
+                        <li>Beurre (pour un rendu brillant et épais)</li>
+                        <li>Sauce soja (1c à café environ) </li>
+                        <li>Moutarde à l'ancienne (1c à café)</li>
+                        <li>Moutarde forte (1c à café)</li>
+                        <li>Sirop d'érable (à mesurer selon niveau acidité/sel)</li>
+                    </ul>
                 </div>
                 <div class="img-container">
                     <a href="res/img/...jpg" data-lightbox="Roti de Porc" data-title="Le rôti de porc à la Audrey !"><img src="res/img/...jpg" alt="Oh ! On n'a pas encore pris de photo !" width=100%></a>                    

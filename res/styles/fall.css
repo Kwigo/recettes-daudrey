@@ -132,20 +132,27 @@
   .ingredients {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   
   .ingr-container {
+    display: flex;
+    flex-direction: column;
     width: 35vw;
     padding-right: 5vw;
     height: 80%;
   }
   
   .img-container {
-    max-width: 35vw;
+    display: flex;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
   }
   
   .img-container img {
     border-radius: 15px;
+    max-width: 20vw;
   }
   
   ul li {
